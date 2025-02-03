@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "amm_maker_backend": {
+      "main": "src/amm_maker_backend/main.mo",
+      "type": "motoko"
+    },
+    "amm_maker_frontend": {
+      "dependencies": [
+        "amm_maker_backend"
+      ],
+      "source": [
+        "src/amm_maker_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "amm_maker_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
