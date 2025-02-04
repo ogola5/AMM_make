@@ -13,12 +13,19 @@
       ],
       "type": "assets",
       "workspace": "amm_maker_frontend"
+    },
+    "amm_test": {
+      "main": "src/test/amm_test.mo",
+      "type": "motoko",
+      "dependencies": [
+        "amm_maker_backend"
+      ]
     }
   },
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "mops sources"
     }
   },
   "output_env_file": ".env",
