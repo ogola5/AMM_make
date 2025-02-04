@@ -1,6 +1,6 @@
 # Automated Market Maker (AMM) - Code Comparison and Analysis
 # Decentralized Automated Market Maker (AMM) Architecture
-![Logistics Architecture](https://drive.google.com/file/d/1-2dL3FMa-z0FvNCfuWlf7jr276U115Xj/view)
+![AMM Architecture](https://drive.google.com/file/d/1-2dL3FMa-z0FvNCfuWlf7jr276U115Xj/view?usp=drive_link)
 ## 1. Overview
 This document compares the current AMM implementation with the newly updated version. It highlights key differences, improvements, and potential limitations of Motoko in the context of an AMM.
 
